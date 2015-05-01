@@ -6,8 +6,5 @@ SpecBegin(Cell)
       it(@"runs well", ^{
           expect(5).to.equal(5);
       });
-      it(@"fails", ^{
-          expect(2).to.equal(5);
-      });
   });
 SpecEnd
